@@ -45,5 +45,5 @@ def main() -> None:
     except KeyboardInterrupt: print("\n⏹️ Перервано користувачем")
     except Exception as ex:   print(f"🚧 Неочікувана помилка: {ex}")
 
-if name == "main":
+if __name__ == "__main__":
     main()
