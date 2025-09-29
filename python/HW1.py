@@ -166,4 +166,6 @@ if __name__ == "__main__":
 
         root.mainloop()
 
-    # To run the GUI, uncomment the call to run_gui() above.
+##! Явна помилка ініціалізації всього коду працювати не буде
+# if name == "main":
+    # main()
